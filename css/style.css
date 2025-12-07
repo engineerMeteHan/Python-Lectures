@@ -1,0 +1,122 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+#preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+      /* change if the mask should have another color then white */
+      z-index: 99;
+      /* makes sure it stays on top */
+    }
+
+    #status {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 50%;
+      /* centers the loading animation horizontally one the screen */
+      top: 50%;
+      /* centers the loading animation vertically one the screen */
+      background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+      /* path to your loading animation */
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: -100px 0 0 -100px;
+      /* is width and height divided by two */
+    }
+p{
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.icerik {
+    text-align: center;
+}
+
+.baslik {
+    font-size: 84px;
+}
+
+.linkler > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.margin {
+    margin-bottom: 30px;
+}
+a.twitter:hover{
+	color:#00aced;
+	font-size: 15px;
+}
+a.linkedin:hover{
+	color:#0077B5;
+	font-size: 15px;
+}
+a.upwork:hover{
+	color:#37A000;
+	font-size: 15px;
+}
+a.cv:hover{
+    color:#ecb304;
+	font-size: 15px;
+}
+a.mail:hover{
+    color:#DA4A38;
+    font-size: 15px;
+}
+a.twitter {
+	color:#00aced;
+}
+a.upwork {
+	color:#37A000;
+}
+a.cv {
+    color:#ecb304;
+}
+a.mail {
+    color:#DA4A38;
+}
+a.linkedin {
+	color:#0077B5;
+}
